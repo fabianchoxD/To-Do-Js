@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ 
+body {
+	background: #FAFAFA;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.emptyDiv{
+	margin: 10%;
+	color: #898787;
+	text-align: center;
+	font-size: 3em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+ 
+.main {
+	background: #11CAD0;
+	border-top: 20px solid #08AFB5;
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+}
+ 
+.main .form {
+	color: #212121;
+	text-align: center;
+}
+ 
+.main .form input[type=text] {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+ 
+.main .form input[type=text].error {
+	border: 5px solid #08AFB5;
+	color: red;
+}
+ 
+.main .form .button {
+	background: none;
+	border: 1px solid #08AFB5;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+ 
+.main .form .button:hover {
+	border: 1px solid #fff;
+}
+
+.toDoList{
+	margin-top: 5%;
+}
+ 
+/* - Tareas - */
+.toDoList .list {
+	list-style: none;
+}
+ 
+.toDoList .list li {
+	border-bottom: 1px solid #B6B6B6;
+}
+ 
+.toDoList .list li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+ 
+.toDoList .list li a:hover {
+	text-decoration: line-through;
+}
